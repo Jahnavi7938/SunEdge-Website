@@ -1,0 +1,281 @@
+/* ===========================================
+   Responsive Design
+   SunEdge Energy Pvt Ltd
+=========================================== */
+
+/* ==========================
+   Large Tablets
+========================== */
+
+@media (max-width:1200px){
+
+.hero-text h1{
+    font-size:55px;
+}
+
+.about-grid,
+.why-grid,
+.contact-grid{
+    gap:40px;
+}
+
+}
+
+
+/* ==========================
+   Tablets
+========================== */
+
+@media (max-width:992px){
+
+header .container{
+    height:80px;
+}
+
+.logo img{
+    width:170px;
+}
+
+.menu-icon{
+    display:block;
+    font-size:28px;
+    color:#222;
+}
+
+nav{
+    position:absolute;
+    top:80px;
+    left:0;
+    width:100%;
+    background:#fff;
+    display:none;
+    box-shadow:0 5px 20px rgba(0,0,0,.1);
+}
+
+nav.active{
+    display:block;
+}
+
+nav ul{
+    flex-direction:column;
+    gap:0;
+}
+
+nav ul li{
+    border-bottom:1px solid #eee;
+}
+
+nav ul li a{
+    display:block;
+    padding:18px;
+}
+
+.quote-btn{
+    display:none;
+}
+
+.hero{
+    height:90vh;
+}
+
+.hero-text{
+    text-align:center;
+    margin:auto;
+}
+
+.hero-text h1{
+    font-size:48px;
+}
+
+.hero-buttons{
+    justify-content:center;
+}
+
+.about-grid,
+.why-grid,
+.contact-grid{
+    grid-template-columns:1fr;
+}
+
+.about-image{
+    order:1;
+}
+
+.about-content{
+    order:2;
+}
+
+.service-grid{
+    grid-template-columns:repeat(2,1fr);
+}
+
+.project-grid{
+    grid-template-columns:repeat(2,1fr);
+}
+
+.counter-grid{
+    grid-template-columns:repeat(2,1fr);
+    gap:40px;
+}
+
+.testimonial-grid{
+    grid-template-columns:1fr;
+}
+
+.footer-grid{
+    grid-template-columns:repeat(2,1fr);
+}
+
+}
+
+
+/* ==========================
+   Mobile Devices
+========================== */
+
+@media (max-width:768px){
+
+.container{
+    width:92%;
+}
+
+.hero{
+    height:100vh;
+}
+
+.hero-text h1{
+    font-size:36px;
+}
+
+.hero-text p{
+    font-size:16px;
+    line-height:28px;
+}
+
+.hero-buttons{
+    flex-direction:column;
+    gap:15px;
+}
+
+.btn{
+    width:100%;
+    text-align:center;
+}
+
+.about,
+.services,
+.projects,
+.why,
+.contact,
+.testimonials{
+    padding:80px 0;
+}
+
+.about-content h2,
+.why h2,
+.contact h2,
+.title h2{
+    font-size:32px;
+}
+
+.features{
+    grid-template-columns:1fr;
+}
+
+.service-grid{
+    grid-template-columns:1fr;
+}
+
+.project-grid{
+    grid-template-columns:1fr;
+}
+
+.project-grid img{
+    height:240px;
+}
+
+.counter-grid{
+    grid-template-columns:1fr;
+}
+
+.counter h2{
+    font-size:42px;
+}
+
+.footer-grid{
+    grid-template-columns:1fr;
+}
+
+.social{
+    justify-content:flex-start;
+}
+
+.badge{
+    left:15px;
+    bottom:15px;
+    padding:18px 25px;
+}
+
+.badge h2{
+    font-size:32px;
+}
+
+}
+
+
+/* ==========================
+   Small Mobile
+========================== */
+
+@media (max-width:480px){
+
+.hero-text h1{
+    font-size:30px;
+}
+
+.hero-text p{
+    font-size:15px;
+}
+
+.title h2{
+    font-size:28px;
+}
+
+.about-content h2,
+.why h2,
+.contact h2{
+    font-size:28px;
+}
+
+.feature{
+    flex-direction:column;
+    text-align:center;
+}
+
+.feature i{
+    margin-bottom:10px;
+}
+
+.counter h2{
+    font-size:36px;
+}
+
+form input,
+form textarea{
+    padding:15px;
+}
+
+form button{
+    padding:15px;
+    font-size:16px;
+}
+
+.footer-grid{
+    text-align:center;
+}
+
+.social{
+    justify-content:center;
+}
+
+}
