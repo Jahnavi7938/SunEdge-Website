@@ -26,14 +26,14 @@
    Tablets
 ========================== */
 
-@media (max-width:992px){
+@media (max-width:768px){
 
 header .container{
     height:80px;
 }
 
 .logo img{
-    width:170px;
+    width:120px;
 }
 
 .menu-icon{
