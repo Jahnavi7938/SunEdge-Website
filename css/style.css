@@ -541,11 +541,12 @@ footer{
     line-height:32px;
 }
 
-.footer-grid ul li{
-    cursor:pointer;
+.footer-grid ul li a{
+    color:#ccc;
+    text-decoration:none;
+    display:block;
     transition:.3s;
 }
-
 .footer-grid ul li:hover{
     color:#54a51c;
 }
